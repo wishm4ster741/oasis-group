@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO UTAMA -->
+  <title>Oasis Group | Profil Grup dan Portofolio Empat Brand</title>
+
+  <meta name="description" content="Oasis Group merupakan grup yang menaungi empat brand dalam satu portofolio, yaitu OasisTogel, Kaisar4DToto, Dynasty4DToto, dan Taruma4D.">
+
+  <meta name="author" content="Oasis Group">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="googlebot" content="index, follow">
+  <meta name="language" content="Indonesian">
+  <meta name="theme-color" content="#080d18">
+
+  <!-- CANONICAL -->
+  <link rel="canonical" href="https://oasisgroup.netlify.app/">
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Oasis Group">
+  <meta property="og:title" content="Oasis Group | Profil dan Portofolio Brand">
+  <meta property="og:description" content="Kenali Oasis Group dan empat brand dalam portofolionya: OasisTogel, Kaisar4DToto, Dynasty4DToto, dan Taruma4D.">
+  <meta property="og:url" content="https://oasisgroup.netlify.app/">
+  <meta property="og:image" content="https://oasisgroup.netlify.app/oasis.png">
+  <meta property="og:image:alt" content="Oasis Group">
+
+  <!-- TWITTER CARD -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Oasis Group | Profil dan Portofolio Brand">
+  <meta name="twitter:description" content="Satu Grup. Empat Identitas Brand. Kenali portofolio Oasis Group.">
+  <meta name="twitter:image" content="https://oasisgroup.netlify.app/oasis.png">
+
+  <!-- FAVICON -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="oasis.jpg">
+
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- STRUCTURED DATA: ORGANIZATION, WEBSITE, BREADCRUMB -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://oasisgroup.netlify.app/#organization",
+        "name": "Oasis Group",
+        "url": "https://oasisgroup.netlify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://oasisgroup.netlify.app/oasis.png"
+        },
+        "description": "Oasis Group merupakan grup yang menaungi empat brand dalam satu portofolio.",
+        "subOrganization": [
+          {
+            "@type": "Organization",
+            "name": "OasisTogel",
+            "url": "https://oasistogel.netlify.app/"
+          },
+          {
+            "@type": "Organization",
+            "name": "Kaisar4DToto",
+            "url": "https://kaisar4dtotohebat.netlify.app/"
+          },
+          {
+            "@type": "Organization",
+            "name": "Dynasty4DToto",
+            "url": "https://dynasty4dtoto.netlify.app/"
+          },
+          {
+            "@type": "Organization",
+            "name": "Taruma4D",
+            "url": "https://taruma4djaya.netlify.app/"
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://oasisgroup.netlify.app/#website",
+        "url": "https://oasisgroup.netlify.app/",
+        "name": "Oasis Group",
+        "inLanguage": "id-ID",
+        "publisher": {
+          "@id": "https://oasisgroup.netlify.app/#organization"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://oasisgroup.netlify.app/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://oasisgroup.netlify.app/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #080d18;
+      --bg-secondary: #0d1524;
+      --gold: #d6b46a;
+      --gold-light: #f2d99b;
+      --white: #f7f7f5;
+      --muted: #a2adbd;
+      --border: rgba(214,180,106,.22);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 100px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(1120px, 90%);
+      margin: auto;
+    }
+
+    /* HEADER */
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(8,13,24,.96);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .navbar {
+      min-height: 82px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 25px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--gold-light);
+    }
+
+    .logo span {
+      display: block;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 9px;
+      letter-spacing: 5px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 32px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      transition: .3s;
+    }
+
+    .nav-links a:hover {
+      color: var(--gold-light);
+    }
+
+    /* HERO */
+
+    .hero {
+      min-height: 560px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(
+          ellipse at 50% 40%,
+          rgba(214,180,106,.14),
+          transparent 55%
+        ),
+        linear-gradient(180deg, #0d1729, #080d18);
+    }
+
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 350px;
+      height: 350px;
+      border: 1px solid rgba(214,180,106,.12);
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      pointer-events: none;
+    }
+
+    .hero::after {
+      width: 470px;
+      height: 470px;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 850px;
+      margin: auto;
+      padding: 90px 0;
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      letter-spacing: 4px;
+      font-size: 11px;
+      font-weight: 700;
+      margin-bottom: 22px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(40px, 7vw, 74px);
+      line-height: 1.18;
+      margin-bottom: 24px;
+    }
+
+    h1 span {
+      color: var(--gold-light);
+    }
+
+    .hero-description {
+      color: var(--muted);
+      font-size: 15px;
+      max-width: 650px;
+      margin: auto;
+    }
+
+    .hero-button {
+      display: inline-block;
+      margin-top: 35px;
+      padding: 14px 30px;
+      border: 1px solid var(--gold);
+      color: var(--gold-light);
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      transition: .3s;
+    }
+
+    .hero-button:hover {
+      background: var(--gold);
+      color: #101725;
+      transform: translateY(-3px);
+    }
+
+    /* BRAND SECTION */
+
+    .brands {
+      padding: 100px 0;
+      background: var(--bg);
+    }
+
+    .section-heading {
+      text-align: center;
+      margin-bottom: 55px;
+    }
+
+    .section-heading h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(30px, 4vw, 43px);
+      margin-bottom: 12px;
+    }
+
+    .section-heading h2 span {
+      color: var(--gold-light);
+    }
+
+    .section-heading p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .brand-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+    }
+
+    .brand-card {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      min-height: 180px;
+      padding: 28px;
+      background: linear-gradient(135deg, #15243a, #0e1829);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: .35s;
+    }
+
+    .brand-card::after {
+      content: "";
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      border: 1px solid rgba(214,180,106,.08);
+      border-radius: 50%;
+      right: -70px;
+      bottom: -100px;
+      pointer-events: none;
+    }
+
+    .brand-card:hover {
+      transform: translateY(-6px);
+      border-color: var(--gold);
+      box-shadow: 0 15px 40px rgba(0,0,0,.3);
+    }
+
+    .brand-card:focus-visible,
+    .hero-button:focus-visible,
+    .nav-links a:focus-visible {
+      outline: 2px solid var(--gold-light);
+      outline-offset: 5px;
+    }
+
+    .brand-logo {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      border-radius: 12px;
+      background: rgba(255,255,255,.04);
+      padding: 8px;
+      flex-shrink: 0;
+    }
+
+    .brand-info {
+      position: relative;
+      z-index: 2;
+    }
+
+    .brand-info h3 {
+      font-size: 20px;
+      margin-bottom: 8px;
+      color: var(--gold-light);
+    }
+
+    .brand-info p {
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 15px;
+    }
+
+    .brand-link {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 1px;
+    }
+
+    .brand-link:hover {
+      color: white;
+    }
+
+    .new-label {
+      display: inline-block;
+      padding: 3px 9px;
+      border-radius: 3px;
+      background: rgba(214,180,106,.15);
+      color: var(--gold-light);
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+
+    /* ABOUT */
+
+    .about {
+      padding: 90px 0;
+      background: var(--bg-secondary);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .about-content {
+      max-width: 780px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .about-content h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 36px;
+      margin-bottom: 25px;
+    }
+
+    .about-content h2 span {
+      color: var(--gold-light);
+    }
+
+    .about-content p {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 2;
+    }
+
+    /* FOOTER */
+
+    footer {
+      padding: 45px 0 25px;
+      background: #060a12;
+      text-align: center;
+    }
+
+    .footer-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      color: var(--gold-light);
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+    }
+
+    footer p {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 22px;
+      margin: 25px 0;
+    }
+
+    .footer-links a {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .footer-links a:hover {
+      color: var(--gold);
+    }
+
+    .copyright {
+      border-top: 1px solid rgba(255,255,255,.07);
+      padding-top: 20px;
+      margin-top: 30px;
+    }
+
+    /* ANIMATION */
+
+    .reveal {
+      animation: fadeUp .8s ease both;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(25px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* RESPONSIVE */
+
+    @media(max-width: 700px) {
+
+      .navbar {
+        min-height: 70px;
+      }
+
+      .logo {
+        font-size: 21px;
+      }
+
+      .nav-links {
+        gap: 14px;
+      }
+
+      .nav-links a {
+        font-size: 10px;
+      }
+
+      .hero {
+        min-height: 470px;
+      }
+
+      .hero-content {
+        padding: 70px 0;
+      }
+
+      .hero-description {
+        font-size: 13px;
+        padding: 0 10px;
+      }
+
+      .brands {
+        padding: 70px 0;
+      }
+
+      .brand-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      .brand-card {
+        min-height: 145px;
+        padding: 20px;
+        gap: 18px;
+      }
+
+      .brand-logo {
+        width: 78px;
+        height: 78px;
+      }
+
+      .brand-info h3 {
+        font-size: 17px;
+      }
+
+      .about {
+        padding: 70px 0;
+      }
+
+      .about-content h2 {
+        font-size: 29px;
+      }
+    }
+
+    @media(max-width: 380px) {
+
+      .nav-links {
+        gap: 9px;
+      }
+
+      .nav-links a {
+        font-size: 9px;
+      }
+
+      .brand-card {
+        gap: 12px;
+        padding: 15px;
+      }
+
+      .brand-logo {
+        width: 65px;
+        height: 65px;
+      }
+    }
+
+    @media(prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container navbar">
+
+      <a href="#home" class="logo" aria-label="Oasis Group Beranda">
+        OASIS
+        <span>GROUP</span>
+      </a>
+
+      <nav aria-label="Navigasi utama">
+        <ul class="nav-links">
+          <li><a href="#home">BERANDA</a></li>
+          <li><a href="#brands">BRAND KAMI</a></li>
+          <li><a href="#about">TENTANG KAMI</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+      <div class="container hero-content reveal">
+
+        <div class="eyebrow">
+          SELAMAT DATANG DI OASIS GROUP
+        </div>
+
+        <h1>
+          Satu Grup.<br>
+          <span>Empat Identitas Brand.</span>
+        </h1>
+
+        <p class="hero-description">
+          Mengenal lebih dekat portofolio brand yang
+          berada di bawah naungan Oasis Group.
+          Empat identitas dalam satu grup.
+        </p>
+
+        <a href="#brands" class="hero-button">
+          JELAJAHI BRAND KAMI
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- PORTOFOLIO BRAND -->
+    <section class="brands" id="brands">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div class="eyebrow">
+            PORTOFOLIO KAMI
+          </div>
+
+          <h2>
+            Jelajahi <span>Brand Kami</span>
+          </h2>
+
+          <p>
+            Empat identitas. Satu grup.
+          </p>
+
+        </div>
+
+        <div class="brand-grid">
+
+          <!-- OASISTOGEL -->
+          <a
+            href="https://oasistogel.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="brand-card"
+            aria-label="Kunjungi situs OasisTogel"
+          >
+
+            <img
+              src="oasis.png"
+              alt="Logo OasisTogel"
+              class="brand-logo"
+              width="100"
+              height="100"
+              fetchpriority="high"
+            >
+
+            <div class="brand-info">
+
+              <h3>OasisTogel</h3>
+
+              <p>
+                Brand dalam portofolio Oasis Group.
+              </p>
+
+              <span class="brand-link">
+                KUNJUNGI SITUS →
+              </span>
+
+            </div>
+
+          </a>
+
+          <!-- KAISAR4DTOTO -->
+          <a
+            href="https://kaisar4dtotohebat.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="brand-card"
+            aria-label="Kunjungi situs Kaisar4DToto"
+          >
+
+            <img
+              src="kaisar.png"
+              alt="Logo Kaisar4DToto"
+              class="brand-logo"
+              width="100"
+              height="100"
+              loading="lazy"
+            >
+
+            <div class="brand-info">
+
+              <h3>Kaisar4DToto</h3>
+
+              <p>
+                Brand dalam portofolio Oasis Group.
+              </p>
+
+              <span class="brand-link">
+                KUNJUNGI SITUS →
+              </span>
+
+            </div>
+
+          </a>
+
+          <!-- DYNASTY4DTOTO -->
+          <a
+            href="https://dynasty4dtoto.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="brand-card"
+            aria-label="Kunjungi situs Dynasty4DToto"
+          >
+
+            <img
+              src="dynasty.png"
+              alt="Logo Dynasty4DToto"
+              class="brand-logo"
+              width="100"
+              height="100"
+              loading="lazy"
+            >
+
+            <div class="brand-info">
+
+              <h3>Dynasty4DToto</h3>
+
+              <p>
+                Brand dalam portofolio Oasis Group.
+              </p>
+
+              <span class="brand-link">
+                KUNJUNGI SITUS →
+              </span>
+
+            </div>
+
+          </a>
+
+          <!-- TARUMA4D -->
+          <a
+            href="https://taruma4djaya.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="brand-card"
+            aria-label="Kunjungi situs Taruma4D"
+          >
+
+            <img
+              src="taruma.png"
+              alt="Logo Taruma4D"
+              class="brand-logo"
+              width="100"
+              height="100"
+              loading="lazy"
+            >
+
+            <div class="brand-info">
+
+              <span class="new-label">
+                BRAND TERBARU
+              </span>
+
+              <h3>Taruma4D</h3>
+
+              <p>
+                Brand terbaru dalam portofolio Oasis Group.
+              </p>
+
+              <span class="brand-link">
+                KUNJUNGI SITUS →
+              </span>
+
+            </div>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- TENTANG KAMI -->
+    <section class="about" id="about">
+
+      <div class="container about-content">
+
+        <div class="eyebrow">
+          TENTANG KAMI
+        </div>
+
+        <h2>
+          Mengenal <span>Oasis Group</span>
+        </h2>
+
+        <p>
+          Oasis Group merupakan grup yang menaungi beberapa
+          brand dalam satu portofolio.
+
+          Setiap brand memiliki identitas dan karakteristik
+          tersendiri, dengan tetap menjadi bagian dari
+          identitas besar Oasis Group.
+
+          Portofolio Oasis Group mencakup empat brand,
+          yaitu OasisTogel, Kaisar4DToto, Dynasty4DToto,
+          dan Taruma4D.
+
+          Melalui halaman ini, pengunjung dapat mengenal
+          masing-masing brand serta mengakses situs
+          resminya melalui tautan yang tersedia.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-logo">
+        OASIS GROUP
+      </div>
+
+      <p>
+        Satu Grup. Empat Identitas Brand.
+      </p>
+
+      <nav class="footer-links" aria-label="Navigasi footer">
+
+        <a href="#home">Beranda</a>
+        <a href="#brands">Brand Kami</a>
+        <a href="#about">Tentang Kami</a>
+
+        <a
+          href="https://oasistogel.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >OasisTogel</a>
+
+        <a
+          href="https://kaisar4dtotohebat.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Kaisar4DToto</a>
+
+        <a
+          href="https://dynasty4dtoto.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Dynasty4DToto</a>
+
+        <a
+          href="https://taruma4djaya.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Taruma4D</a>
+
+      </nav>
+
+      <div class="copyright">
+
+        <p>
+          © <span id="year"></span> Oasis Group.
+          Hak Cipta Dilindungi.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+
+</body>
+</html>

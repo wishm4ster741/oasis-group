@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oasisgroup.netlify.app/sitemap.xml
